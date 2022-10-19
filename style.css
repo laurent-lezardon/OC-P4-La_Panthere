@@ -1,3 +1,8 @@
+:root {
+    --title-light: #FEEAE2;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -13,6 +18,21 @@ button {
     outline: none!important;
 }
 
+figure {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+blockquote {
+    margin: 0;
+    font-style: italic;
+    border-left: none;
+    padding: 0;
+    
+}
+blockquote figcaption {
+    
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -285,6 +305,10 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+.semi-width {
+    width: 66%;
+    margin: auto;
 }
 
 .navbar {
@@ -784,7 +808,9 @@ h3 {
 .ltc-white {
     color: #FFFFFF;
 }
-
+.title-light {
+    color: var(--title-light);
+}
 
 .ltc-atomic-tangerine {
     color: #F3976C;
