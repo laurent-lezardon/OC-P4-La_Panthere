@@ -700,9 +700,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
-
+footer p {
+    font-size: 20px;
+    font-weight: 700;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -715,10 +718,10 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -788,15 +791,15 @@ h3 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F26727;
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #F26727;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F26727;
     color: #FFFFFF;
 }
 
@@ -813,7 +816,7 @@ h3 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C;
+    color: #F26727;
 }
 
 .ltc-atomic-tangerine:hover {
