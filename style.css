@@ -22,15 +22,19 @@ figure {
     width: 50%;
     display: block;
     margin: auto;
+    
 }
 blockquote {
     margin: 0;
+    margin-top: 60px;
     font-style: italic;
     border-left: none;
     padding: 0;
+    font-weight: bold;
     
 }
-blockquote figcaption {
+figure figcaption {
+    font-size: 16px;
     
 }
 a:hover {
@@ -306,9 +310,17 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-.semi-width {
+.h2-mw {
     width: 66%;
     margin: auto;
+}
+.h2-sw {
+    width: 50%;
+    margin: auto;
+}
+.col-sm-12 {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .navbar {
@@ -726,12 +738,28 @@ footer p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0;
+    margin: auto;
+
+}
+.social__icons {
+    width: 100%;
+    justify-items: center;
+}
+.social a {
+    
     display: inline-block;
     margin: auto;
     height: 48px;
     width: 100%;
+    min-width: 48px;
     max-width: 400px;
-    padding: auto;
+}
+.social span {
+    line-height: 48px;
 }
 
 h2 {
@@ -779,6 +807,7 @@ h3 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.85);
     padding: 40px 40px 40px 40px;
+    min-height: 400px;
 }
 
 .bold-link {
@@ -1001,6 +1030,8 @@ h3 {
         padding-left: 0;
         padding-right: 0;
     }
+
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1039,6 +1070,15 @@ h3 {
     }
     .close-lightbox {
         display: inline-block;
+    }
+    figure, .h2-mw, .h2-sw {
+        width: 80%;
+    }
+    .img-responsive {
+        margin: auto;
+    }
+    .black-background {
+        padding: 40px 5%;
     }
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
