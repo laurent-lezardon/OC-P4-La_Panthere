@@ -715,7 +715,7 @@ p {
     font-size: 12px;
 }
 footer p {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
 }
 .tight-width-whitespace {
@@ -733,7 +733,7 @@ footer p {
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -824,7 +824,7 @@ h3 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F26727;
+    background-color: #CB4C11;
 }
 
 .tc-white {
@@ -832,7 +832,7 @@ h3 {
 }
 
 .btn-atomic-tangerine {
-    background: #F26727;
+    background: #cb4c11;
     color: #FFFFFF;
 }
 
