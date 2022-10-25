@@ -115,7 +115,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/compress/texture-paper.avif");
+    background: url("img/compress/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -871,11 +871,11 @@ h3 {
 }
 
 .bg-banniere {
-    background-image: url("img/compress/bg-bureau-haut.avif");
+    background-image: url("img/compress/bg-bureau-haut.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/compress/bg-bureau-bas.avif");
+    background-image: url("img/compress/bg-bureau-bas.webp");
 }
 
 @media (max-width: 1024px) {
