@@ -1,7 +1,7 @@
 ![logo du site](./img/compress/agence-la-panthere-monochrome-min.svg)
 
  
-#Présentation du projet 3 - Ohmyfood 
+# Présentation du projet 3 - Ohmyfood 
 
 Le projet 4 concerne l'amélioration du référencement  et de l'accessibilité du site de l'agence "La Panthère"
 
